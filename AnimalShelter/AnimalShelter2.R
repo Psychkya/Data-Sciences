@@ -267,27 +267,25 @@ shelter.train$OutcomeSubtype[which(shelter.train$OutcomeSubtype=="")] <- "Unknow
 shelter.train$OutcomeSubtype <- as.factor(shelter.train$OutcomeSubtype)
 #############
 #First Model
-traindf <- shelter.train[,which(names(shelter.train) %in% c("OutcomeType","OutcomeSubtype","AnimalType","SexuponOutcome",
+traindf <- shelter.train[,which(names(shelter.train) %in% c("OutcomeType","AnimalType","SexuponOutcome",
                                                             "purebreed","Age","uniqcolor","BreedSize"))]
 index <- sample(nrow(traindf),nrow(traindf)/3)
 traindf.val <- traindf[index,]
 traindf.trn <- traindf[-index,]
 library(caret)
 ctrl <- trainControl(method = "repeatedcv", number = 10, repeats = 10)
-grid_rf <- expand.grid(.mtry = c(2, 4, 6, 8))
+#grid_rf <- expand.grid(.mtry = c(2, 3, 4, 5, 6, 7))
 set.seed(1)
 rfmodel1 <- train(traindf.trn$OutcomeType ~ ., data = traindf.trn[,-1], method = "rf", metric = "Kappa", 
-              trControl = ctrl, tuneGrid = grid_rf)
+              trControl = ctrl)
 rfmodel1
 results <- predict(rfmodel1,traindf.val[,-1],type='prob')
 #To calculate log loss, convert actual results to a matrix. Since the predicted results is a data frame, lets try that first
-Adoption <- rep(0,8900)
-Died <- rep(0,8900)
-Euthanasia <- rep(0,8900)
-R2O <- rep(0,8900)
-Transfer <- rep(0,8900)
-#Remove the NA's
-traindf.val <- traindf.val[!is.na(traindf.val$OutcomeSubtype),]
+Adoption <- rep(0,8909)
+Died <- rep(0,8909)
+Euthanasia <- rep(0,8909)
+R2O <- rep(0,8909)
+Transfer <- rep(0,8909)
 for (i in 1:nrow(traindf.val)) {
   if(grepl("Adoption",traindf.val$OutcomeType[i])){
     Adoption[i] <- 1
@@ -308,16 +306,6 @@ for (i in 1:nrow(traindf.val)) {
 actual <- data.frame(Adoption,Died,Euthanasia,R2O,Transfer)
 colnames(actual) <- c("Adoption","Died","Euthanasia","Return_to_owner","Transfer")
 rownames(actual) <- rownames(traindf.val)
-#Got an issue, number of rows for actual and predicted does not match
-c <- 1
-for(i in 1:nrow(results)){
-  if(rownames(actual[i,])!=rownames(results[i,])){
-    cat(c, " : ", rownames(actual[i,])," : ", rownames(results[i,]), "\n")
-    break
-  }
-  c <- c + 1
-}
-#Welp! Seems I left a few NA in Outcomesubtype. Lets get rid of those and re-run the code to get data frame of actuals
 #Find log loss
 library(MLmetrics)
 m_actual <- as.matrix(actual)
@@ -330,3 +318,4 @@ LogLoss <- function(actual, predicted, eps=1e-15) {
   -1/nrow(actual)*(sum(actual*log(predicted)))
 }
 LogLoss(m_actual,m_results)
+#Outcome subtype is missing from test set. so try without it
