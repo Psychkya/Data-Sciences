@@ -1,0 +1,230 @@
+Breed,Weight M,Height M,Weight F,Height F
+Abyssinian,9,9,9,9
+Affenpinscher,6,9,6,9
+Afghan Hound,57,27,57,24
+Airedale Terrier,51,23,40,22
+Akita,99,26,71,24
+Alaskan Husky,40,20,35,20
+Alaskan Malamute,79,24,71,22
+American Bulldog,66,20,60,20
+American Eskimo,18,15,18,15
+American Foxhound,64,22,44,21
+American Pit Bull Terrier,35,19,30,19
+American Shorthair,9,9,9,9
+American Staffordshire Terrier,62,18,62,17
+Anatol Shepherd,110,29,88,28
+Angora,9,9,9,9
+Australian Cattle Dog,33,18,31,17
+Australian Kelpie,31,18,31,17
+Australian Shepherd,55,20,35,18
+Australian Terrier,14,9,12,9
+Balinese,9,9,9,9
+Basenji,22,16,20,15
+Basset Hound,51,12,44,11
+Beagle,22,14,20,13
+Bearded Collie,30,19,27,18
+Beauceron,71,24,66,24
+Bedlington Terrier,17,16,17,15
+Belgian Malinois,64,24,55,22
+Belgian Sheepdog,55,24,44,20
+Belgian Tervuren,55,24,44,22
+Bengal,9,9,9,9
+Bernese Mountain Dog,86,25,79,23
+Bichon Frise,7,9,7,9
+Black,40,18,35,16
+Black Mouth Cur,40,18,35,16
+Bloodhound,90,25,80,23
+Blue Lacy,35,18,30,18
+Bluetick Hound,55,22,45,21
+Boerboel,150,25,150,23
+Bombay,9,9,9,9
+Border Collie,30,19,27,18
+Border Terrier,13,13,11,11
+Borzoi,75,26,55,24
+Boston Terrier,10,15,10,15
+Boxer,66,22,55,21
+Boykin Spaniel,30,16,25,14
+British Shorthair,9,9,9,9
+Brittany,30,19,30,18
+Bruss Griffon,9,9,9,9
+Bull Terrier,49,18,49,18
+Bull Terrier Miniature,20,10,20,10
+Bulldog,50,12,40,12
+Bullmastiff,110,25,99,24
+Burmese,9,9,9,9
+Cairn Terrier,13,10,13,9
+Canaan Dog,45,20,35,19
+Cane Corso,99,24,88,23
+Cardigan Welsh Corgi,30,10,25,10
+Carolina Dog,33,18,33,18
+Catahoula,35,22,35,20
+Cavalier Spaniel,13,12,13,12
+Chesa Bay Retriever,65,23,55,21
+Chihuahua Longhair,3,6,3,6
+Chihuahua Shorthair,3,6,3,6
+Chinese Crested,5,11,5,9
+Chinese Sharpei,55,18,40,18
+Chow Chow,55,19,44,18
+Cocker Spaniel,29,15,26,14
+Collie Rough,45,22,40,20
+Collie Smooth,45,22,40,20
+Cornish Rex,9,9,9,9
+Coton De Tulear,9,10,8,9
+Cymric,9,9,9,9
+Dachshund,16,8,16,8
+Dachshund Longhair,16,8,16,8
+Dachshund Wirehair,16,8,16,8
+Dalmatian,33,21,35,18
+Dandie Dinmont,18,8,18,8
+Devon Rex,9,9,9,9
+Doberman Pinsch,75,26,60,24
+Dogo Argentino,88,24,77,24
+Dogue De Bordeaux,120,24,120,23
+Domestic Longhair,9,9,9,9
+Domestic Medium Hair,9,9,9,9
+Domestic Shorthair,9,9,9,9
+Dutch Shepherd,65,22,65,22
+English Bulldog,53,12,49,12
+English Cocker Spaniel,29,15,26,14
+English Coonhound,40,22,40,21
+English Foxhound,60,22,55,21
+English Pointer,40,22,35,21
+English Setter,55,24,45,23
+English Shepherd,46,18,40,18
+English Springer Spaniel,45,19,40,18
+Eng Toy Spaniel,8,10,8,10
+Entlebucher,45,17,45,17
+Exotic Shorthair,9,9,9,9
+Feist,10,10,10,10
+Field Spaniel,35,17,35,17
+Finnish Spitz,26,17,15,15
+Flat Coat Retriever,60,23,55,22
+French Bulldog,20,11,16,11
+German Pinscher,30,17,30,17
+German Shepherd,66,24,49,22
+German Shorthair Pointer,55,23,45,21
+German Wirehaired Pointer,55,23,45,21
+Glen Of Imaal,35,12,35,12
+Golden Retriever,65,22,55,20
+Gordon Setter,55,24,45,23
+Great Dane,120,30,99,28
+Great Pyrenees,110,28,80,26
+Greater Swiss Mountain Dog,130,26,110,24
+Greyhound,60,28,57,27
+Harrier,45,20,45,20
+Havana Brown,9,9,9,9
+Havanese,10,9,10,9
+Himalayan,9,9,9,9
+Hovawart,55,25,55,23
+Ibizan Hound,45,26,45,24
+Irish Setter,65,26,55,24
+Irish Terrier,26,18,24,18
+Irish Wolfhound,120,32,105,30
+Italian Greyhound,7,13,7,13
+Jack Russell Terrier,15,8,11,8
+Japanese Bobtail,9,9,9,9
+Japanese Chin,5,7,5,7
+Javanese,9,9,9,9
+Jindo,40,20,33,18
+Keeshond,31,17,30,16
+Kuvasz,100,28,70,26
+Labrador Retriever,64,22,55,22
+Landseer,143,28,110,26
+Leonberger,100,28,90,26
+Lhasa Apso,13,10,12,9
+Lowchen,9,13,7,12
+Maine Coon,9,9,9,9
+Maltese,7,8,6,8
+Manchester Terrier,14,16,12,15
+Manx,9,9,9,9
+Mastiff,160,28,120,28
+Mexican Hairless,25,15,24,14
+Miniature Pinscher,8,10,8,10
+Miniature Poodle,17,15,15,11
+Miniature Schnauzer,11,14,10,13
+Munchkin Longhair,9,7,7,7
+Neapolitan Mastiff,130,26,110,24
+Newfoundland,149,28,119,26
+Norfolk Terrier,11,9,11,9
+Norwegian Elkhound,49,19,49,19
+Norwegian Forest Cat,9,9,9,9
+Norwich Terrier,12,10,12,10
+Nova Scotia Duck Tolling Retriever,44,19,37,18
+Ocicat,9,9,9,9
+Old English Bulldog,60,22,55,21
+Old English Sheepdog,70,22,60,20
+Otterhound,115,27,80,24
+Papillon,7,7,7,7
+Parson Russell Terrier,13,12,13,12
+Patterdale Terr,28,12,25,10
+Pbgv,25,13,25,13
+Pekingese,8,12,7,11
+Pembroke Welsh Corgi,22,10,22,10
+Persian,9,9,9,9
+Pharaoh Hound,45,23,45,21
+Picardy Sheepdog,51,24,50,22
+Pit Bull,35,19,30,19
+Pixiebob Shorthair,9,9,9,9
+Plott Hound,50,20,40,20
+Podengo Pequeno,10,9,9,8
+Pointer,47,22,44,21
+Pomeranian,4,6,3,5
+Port Water Dog,42,20,35,17
+Presa Canario,100,23,85,22
+Pug,14,10,14,10
+Queensland Heeler,33,18,31,17
+Ragdoll,9,9,9,9
+Rat Terrier,15,16,12,14
+Redbone Hound,47,22,45,21
+Rex,n/a,n/a,n/a,n/a
+Rhod Ridgeback,79,25,64,24
+Rottweiler,110,24,110,77
+Russian Blue,9,9,9,9
+Saluki,42,24,40,22
+Samoyed,44,21,37,19
+Schipperke,6,11,6,10
+Schnauzer Giant,77,25,75,23
+Scottish Terrier,8,9,18,9
+Sealyham Terr,20,12,18,12
+Shetland Sheepdog,11,13,11,13
+Shiba Inu,22,14,18,13
+Shih Tzu,11,7,10,7
+Siamese,9,9,9,9
+Siberian Husky,45,21,35,20
+Silky Terrier,8,9,7,8
+Skye Terrier,35,10,25,9
+Smooth Fox Terrier,15,14,13,13
+Snowshoe,9,9,9,9
+Soft Coated Wheaten Terrier,35,18,34,17
+Spanish Mastiff,185,28,145,26
+Spanish Water Dog,31,17,40,16
+Sphynx,9,9,9,9
+Spinone Italiano,71,24,62,22
+St. Bernard Rough Coat,150,30,140,28
+St. Bernard Smooth Coat,150,30,140,28
+Staffordshire,25,14,23,13
+Standard Poodle,47,17,45,15
+Standard Schnauzer,35,18,30,17
+Swedish Vallhund,25,13,21,12
+Swiss Hound,20,15,18,13
+Tan Hound,25,65,55,23
+Tan Hound Mix,25,65,55,23
+Tibetan Spaniel,10,12,9,11
+Tibetan Terrier,18,14,18,14
+Tonkinese,9,9,9,9
+Toy Fox Terrier,5,10,4,8
+Toy Poodle,7,10,5,9
+Treeing Cur,33,20,31,18
+Treeing Tennesse Brindle,35,18,30,16
+Treeing Walker Coonhound,50,22,50,20
+Turkish Van,9,9,9,9
+Unknown,n/a,n/a,n/a,n/a
+Vizsla,22,44,21,40
+Weimaraner,66,24,55,23
+Welsh Springer Spaniel,40,17,35,16
+Welsh Terrier,21,15,19,15
+West Highland,15,14,13,12
+Whippet,17,19,16,18
+Wire Hair Fox Terrier,15,14,13,13
+Wirehaired Pointing Griffon,51,22,20,51
+Yorkshire Terrier,7,7,6,7
