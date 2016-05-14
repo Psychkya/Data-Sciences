@@ -504,11 +504,18 @@ In the end, we use the following features to build an XGBoost model - “Outcome
 Using the above strategy, the logloss error improved to 0.77676 and moved up to 160 in leader board. This is not a huge improvement, but the point is that now the dataset is at a stage where random forest can be applied. And perhaps an ensemble of random forest and XGBoost will further improve the results.<br />
 The code is not provided in this report, but available in GitHub as referrenced below.</p>
 </div>
-<div id="source-code" class="section level2">
-<h2>Source code:</h2>
-<p><strong>Location:</strong> <a href="https://github.com/Psychkya/Data-Sciences/tree/master/AnimalShelter" class="uri">https://github.com/Psychkya/Data-Sciences/tree/master/AnimalShelter</a><br />
+<div id="conclusion" class="section level2">
+<h2>3. Conclusion:</h2>
+<p>One could surmise that predicting a pet lived or died would be easier. But if a pet lived, whether it is returned to owner or transferred or adopted, brings some amount of complexity to the problem. Same goes for died - whether euthanasia or simply died adds complexity. Although the algorithm parameters can be tuned and perhaps the features can be tweaked some more, there still seems to be lack of information to build an accurate model. It would be better if some sort of health statistics is provided - height and weight of the actual pet would be nice. Also, intake time would have been a great feature to have - the duration a pet is in the shelter could help draw some conclusion around its potential outcome. However, considering the provided features, it is still feasible to provide decent probabilities of the different outcomes. Hopefully, a model like this can bring awareness about different breeds that are more likely to end up in shelter and face one of the outcomes.</p>
+</div>
+<div id="source-code-and-referrences" class="section level2">
+<h2>4. Source code and referrences:</h2>
+<p><strong>Source Location:</strong> <a href="https://github.com/Psychkya/Data-Sciences/tree/master/AnimalShelter" class="uri">https://github.com/Psychkya/Data-Sciences/tree/master/AnimalShelter</a><br />
 <strong>AnimalShelterXGB1.R</strong>: Code for first strategy - same as the one used in this document<br />
-<strong>AnimalShelterXGB2.R</strong>: Code for alternate strategy where height and weight is used</p>
+<strong>AnimalShelterXGB2.R</strong>: Code for alternate strategy where height and weight is used<br />
+<strong>Maddie’s fund</strong>: Source of cumulative data<br />
+<strong>Kaggle.com</strong>: Source of data for model<br />
+<strong>R-bloggers and various sources</strong>: Information on XGBoost</p>
 </div>
 
 
